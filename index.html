@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zafit | Fashion.Fit.Forward</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon/fonts/remixicon.css" rel="stylesheet">
+  </head>
+  <body>
+  <main>
+    <div class="wrapper">
+      <span class="icon-close"><ion-icon name="close"></ion-icon></span>
+      <div class="form-box login">
+        <h2>Login</h2>
+        <form action="#">
+          <div class="input-box">
+            <span class="icon"><ion-icon name="mail"></ion-icon></span>
+            <input type="email" required />
+            <label>Email</label>
+          </div>
+          <div class="input-box">
+            <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+            <input type="password" required />
+            <label>Password</label>
+          </div>
+          <div class="remember-forgot">
+            <label><input type="checkbox" /> Remember Me</label>
+            <a href="#">Forgot Password?</a>
+          </div>
+          <button type="submit" class="btnn">Login</button>
+          <div class="login-register">
+            <p>
+              Don't have an account?<a href="#" class="register-link">Register</a>
+            </p>
+          </div>
+        </form>
+      </div>
+      <div class="form-box register">
+        <h2>Registration</h2>
+        <form action="#">
+          <div class="input-box">
+            <span class="icon"><ion-icon name="person"></ion-icon></span>
+            <span class="icon"></span>
+            <input type="text" required />
+            <label>Username</label>
+          </div>
+          <div class="input-box">
+            <span class="icon"><ion-icon name="mail"></ion-icon></span>
+            <input type="email" required />
+            <label>Email</label>
+          </div>
+          <div class="input-box">
+            <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+            <input type="password" required />
+            <label>Password</label>
+          </div>
+          <div class="remember-forgot">
+            <label><input type="checkbox"> I agree to the terms & conditions</label>
+          </div>
+          <button type="submit" class="btnn">Register</button>
+          <div class="login-register">
+            <p>
+              Already have an account?<a href="#" class="login-link">Login</a>
+            </p>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <header>
+      <h2 class="logo">Zafit</h2>
+      <nav class="navigation">
+        <a href="#home" class="active">Home</a>
+        <a href="#products">Products</a>
+        <a href="#about">About</a>
+        <a href="#brands">Brands</a>
+        <a href="#info">Info</a>
+        <button class="btnlogin-popup">Login</button>
+      </nav>
+    </div>
+    </header>
+    <section class="home" id="home">
+      <div class="hero-text">
+        <div class="typing-container">
+          <span id="typed-text"></span>
+        </div>
+        <p data-aos="fade-down" data-aos-duration="1400">Experence the quality and prestige of renowned designers and sought-after labels, all in one convenient place.</p>
+        <button class="btn" data-aos="fade-left" data-aos-duration="1500">
+          <span class="btn-text-one"><a href="about.html" target="_blank">Know More</a></span>
+        </button>
+      </div>
+  
+      <div class="circle-container">
+        <img src="images/1.jpg" id="hero-image" alt="images" data-aos="zoom-in" data-aos-duration="2000">
+        <div class="thumbnail thumb1" onclick="changeImage('images/1.jpg')"><img src="images/1.jpg" data-aos="zoom-in-right" data-aos-duration="1300"></div>
+        <div class="thumbnail thumb2" onclick="changeImage('images/2.jpg')"><img src="images/2.jpg" data-aos="zoom-in-left" data-aos-duration="1200"></div>
+        <div class="thumbnail thumb3" onclick="changeImage('images/3.jpg')"><img src="images/3.jpg" data-aos="zoom-in-right" data-aos-duration="1400"></div>
+  
+        <i class="ri-arrow-left-line arrow-left" data-aos="zoom-in-right" data-aos-duration="1400" onclick="prevImage()"></i>
+        <i class="ri-arrow-right-line arrow-right" data-aos="zoom-in-left" data-aos-duration="1400" onclick="nextImage()"></i>
+      </div>
+    
+    <div class="wrapper">
+      <span class="icon-close"><ion-icon name="close"></ion-icon></span>
+      <div class="form-box login">
+        <h2>Login</h2>
+        <form action="#">
+          <div class="input-box">
+            <span class="icon"><ion-icon name="mail"></ion-icon></span>
+            <input type="email" required />
+            <label>Email</label>
+          </div>
+          <div class="input-box">
+            <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+            <input type="password" required />
+            <label>Password</label>
+          </div>
+          <div class="remember-forgot">
+            <label><input type="checkbox" /> Remember Me</label>
+            <a href="#">Forgot Password?</a>
+          </div>
+          <button type="submit" class="btnn">Login</button>
+          <div class="login-register">
+            <p>
+              Don't have an account?<a href="#" class="register-link"
+                >Register</a
+              >
+            </p>
+          </div>
+        </form>
+      </div>
+      <div class="form-box register">
+        <h2>Registration</h2>
+        <form action="#">
+          <div class="input-box">
+            <span class="icon"><ion-icon name="person"></ion-icon></span>
+            <span class="icon"></span>
+            <input type="text" required />
+            <label>Username</label>
+          </div>
+          <div class="input-box">
+            <span class="icon"><ion-icon name="mail"></ion-icon></span>
+            <input type="email" required />
+            <label>Email</label>
+          </div>
+          <div class="input-box">
+            <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+            <input type="password" required />
+            <label>Password</label>
+          </div>
+          <div class="remember-forgot">
+            <label><input type="checkbox"> I agree to the terms & conditions</label>
+          </div>
+          <button type="submit" class="btnn">Register</button>
+          <div class="login-register">
+            <p>
+              Already have an account?<a href="#" class="login-link"
+                >Login</a
+              >
+            </p>
+          </div>
+        </form>
+      </div>
+    </main>
+  </section>
+
+  <section class="fashion" id="products">
+      <h1>Featured Products</h1>
+       <div class="car hid">
+      <div class="fasca">
+        <img src="images/shirts.png">
+        <h2>Shirts | TShirts</h2>
+        <p>From sleek shirts to trendy tees, redefine your style with every thread.</p>
+        <a href="#">Shop Now</a>
+      </div>
+      <div class="fasca">
+        <img src="images/pant.png">
+        <h2>Pants | Trousers</h2>
+        <p>Pants that fit your lifestyle—crafted for comfort, styled to impress.</p>
+        <a href="#">Shop Now</a>
+      </div>
+      <div class="fasca">
+        <img src="images/suits.jpg">
+        <h2>Suits</h2>
+        <p>Confidence tailored to perfection—discover suits that define elegance.</p>
+        <a href="#">Shop Now</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="about" id="about">
+    <div class="video">
+      <div class="vidcon hidden">
+          <video src="videos/shirts.mp4" autoplay loop muted playsinline></video>
+      </div>
+    </div>
+    <div class="con">
+      <h1>About Us</h1>
+      <p>At ZAFIT, we believe style is more than just clothing—it's a statement of who you are and who you aspire to be. Founded with a passion for bringing cutting-edge fashion to style enthusiasts, ZAFIT curates the finest trend collections from top fashion houses around the globe.</p>
+
+      <p> Our mission is simple: to elevate your style through thoughtfully selected pieces that blend contemporary aesthetics with timeless appeal. Each item in our collection is chosen not just for its visual impact, but for its quality craftsmanship and innovative design.</p>
+        
+      <p>When you shop with ZAFIT, you're not just buying clothing—you're investing in pieces that tell your unique story. Join us on this journey as we redefine what it means to dress with intention and purpose.</p>
+        
+        
+    </div>
+  </section>
+  <section class="topco" id="brands">
+    <h1>Top Brands</h1>
+    <div class="topbr hidden">
+      <div class="brand ">
+        <a href="https://www.puma.com" target="_blank">
+          <img src="https://static.vecteezy.com/system/resources/previews/022/100/836/large_2x/puma-logo-transparent-free-png.png" alt="Puma">
+        </a>
+      </div>
+      <div class="brand">
+        <a href="https://www.zara.com" target="_blank"></a>
+          <img src="https://pluspng.com/img-png/zara-logo-png-zara-logo-png-and-vector-logo-img-4096x4096.png" alt="Zara">
+        </a>
+      </div>
+      <div class="brand">
+        <a href="https://www.adidas.com" target="_blank">
+          <img src="https://static.vecteezy.com/system/resources/previews/019/766/237/original/adidas-logo-adidas-icon-transparent-free-png.png" alt="Adidas">
+        </a>
+      </div>
+      <div class="brand lv">
+        <a href="https://www.louisvuitton.com" target="_blank">
+          <img src="https://www.pngall.com/wp-content/uploads/13/Louis-Vuitton-Logo.png" alt="Louis Vuitton">
+        </a>
+      </div>
+      <div class="brand ">
+        <a href="https://www.biba.in" target="_blank">
+          <img src="https://peoplevine.blob.core.windows.net/media/1258/d9833e62-e46e-4e2e-9d88-beff6338356b/Biba_Logo_Black_copy.png" alt="Biba">
+        </a>
+      </div>
+      <div class="brand">
+        <a href="https://www.nike.com" target="_blank">
+          <img src="https://freepngimg.com/thumb/nike/28091-3-nike-logo-transparent-thumb.png" alt="Nike">
+        </a>
+      </div>
+      <div class="brand gap">
+        <a href="https://www.gap.com" target="_blank">
+          <img src="https://www.pngarts.com/files/11/Gap-Logo-PNG-Transparent-Image.png" alt="Gap">
+        </a>
+      </div>
+      <div class="brand">
+        <a href="https://www.allensolly.com" target="_blank">
+          <img src="https://cdn.freelogovectors.net/wp-content/uploads/2023/09/allen-solly-logo-freelogovectors.net_-180x113.png" alt="Allen Solly">
+        </a>
+      </div>
+  </div>
+  </section>
+  <section class="info hid" id="info">
+    <h1>Company Info</h1>
+    <div class="footer-container">
+      <div class="footer-column">
+        <h3>Payment Accepted</h3>
+        <div class="payment-methods">
+          <ul>
+          <li><i class="ri-bank-card-line"></i> Net Banking</li>
+          <li><i class="ri-visa-line"></i> Cards</li>
+          <li><i class="ri-phone-line"></i> UPI</li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="footer-column">
+        <h3>Trust & Security</h3>
+        <div class="security-features">
+          <ul>
+          <li><i class="ri-shield-check-line"></i> Secure Shopping</li>
+          <li><i class="ri-verified-badge-line"></i> Authentic Guarantee</li>
+          <li><i class="ri-lock-line"></i> SSL Encrypted</li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="footer-column">
+        <h3>Shipping Partners</h3>
+        <div class="shipping-partners">
+          <ul>
+          <li><i class="ri-truck-line"></i> DHL</li>
+          <li><i class="ri-truck-line"></i> BlueDart</li>
+          <li><i class="ri-truck-line"></i> FedEx</li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="footer-column">
+        <h3>Contact Info</h3>
+        <div class="contact-details">
+          <ul>
+          <li><p><i class="ri-phone-line"></i> +1 (555) 123-4567</p></li>
+          <li><p><i class="ri-mail-line"></i> info@zafit.com</p></li>
+          <li><p><i class="ri-map-pin-line"></i> 123 Fashion Street, NY</p></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="copyright">
+      <p>&copy;2025 ZAFIT Luxury Fashion Group. All Rights Reserved.</p>
+    </div>
+  </section>
+</main>
+    <script src="script.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+          offset: 1
+          });
+    </script>
+  </body>
+</html>
